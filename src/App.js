@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import "./components/Model.css";
 import "./components/Notes.css";
+import Add from  './icons/add.svg'
+import Lock from './icons/lock.svg'
+import Logo from './icons/logo.png'
+import Send from './icons/send.svg'
 
 const customStyles = {
   content: {
@@ -129,7 +133,7 @@ export default function Notes() {
           <h1 className="heading">Pocket Notes</h1>
           <button className="add-btn" onClick={openModal}>
             <img
-              src="./icons/add.svg"
+              src={Add}
               alt="add-icon"
               className="add-icon"
             ></img>
@@ -220,7 +224,7 @@ export default function Notes() {
 
                 <div className="textarea">
                   <img
-                    src="./icons/send.svg"
+                    src={Send}
                     alt="icon"
                     className="sendicon"
                     onClick={addNotes}
@@ -245,7 +249,7 @@ export default function Notes() {
           {selectedGroup === null && (
             <div className="desktop-display">
               <img
-                src="./icons/logo.png"
+                src={Logo}
                 alt="display-icon"
                 className="display-logo"
               ></img>
@@ -257,7 +261,7 @@ export default function Notes() {
               </p>
               <footer className="encrypt-text">
                 <img
-                  src="./icons/lock.svg"
+                  src={Lock}
                   alt="encryption-logo"
                   className="lock-icon"
                 ></img>

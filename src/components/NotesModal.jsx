@@ -12,7 +12,7 @@ function NotesModal({
 }) {
   return (
     <div>
-      {/* Modal content and form for creating a new notes group */}
+      
       <div className={modalIsOpen ? "modal open" : "modal"}>
         <div className="modal-content">
           <h2>Create New Notes Group</h2>
