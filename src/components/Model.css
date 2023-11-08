@@ -1,0 +1,64 @@
+.popup-window {
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+  
+  .popup-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+  }
+  
+  .group-name-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+  
+  .group-name-input {
+    width: 60%;
+    padding: 1%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  .color-section {
+    display: flex;
+  }
+  
+  .choose-color-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+  
+  .choose-colors {
+    display: flex;
+    margin-left: 12%;
+  }
+  
+  .colors {
+    margin-right: 5%;
+    width: 35px;
+    height: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .create-btn {
+    margin-top: 8%;
+    margin-bottom: 7%;
+    width: 25%;
+    padding: 1.2%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+  }
