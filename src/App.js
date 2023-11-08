@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import "./components/Model.css";
 import "./components/Notes.css";
-import Add from  './icons/add.svg'
-import Lock from './icons/lock.svg'
-import Logo from './icons/logo.png'
-import Send from './icons/send.svg'
+import Add from  './components/icons/add.svg'
+import Lock from './components/icons/lock.svg'
+import Logo from './components/icons/logo.png'
+import Send from './components/icons/send.svg'
 
 const customStyles = {
   content: {
